@@ -11,5 +11,9 @@ pool:
 
 steps:
 - script: |
+    cd 'Huawei_LiteOS_Kernel'
+  displayName: 'cd kernel'
+
+- script: |
     make
   displayName: 'make'
